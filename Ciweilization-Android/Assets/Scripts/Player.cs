@@ -1461,7 +1461,7 @@ public class Player : Photon.MonoBehaviour
         {
             if (Wonder_Y2)
             {
-                moves -= 1;
+                moves -= 1f;
             }
             else
             {
@@ -1482,7 +1482,7 @@ public class Player : Photon.MonoBehaviour
         {
             if (Wonder_Y2)
             {
-                moves -= 1;
+                moves -= 1f;
             }
             else
             {
@@ -1545,7 +1545,7 @@ public class Player : Photon.MonoBehaviour
         {
             if (Wonder_Y2)
             {
-                moves -= 1;
+                moves -= 1f;
             }
             else
             {
@@ -1566,7 +1566,7 @@ public class Player : Photon.MonoBehaviour
         {
             if (Wonder_Y2)
             {
-                moves -= 1;
+                moves -= 1f;
             }
             else
             {
@@ -1587,11 +1587,11 @@ public class Player : Photon.MonoBehaviour
         {
             if (Wonder_Y2)
             {
-                moves -= 1;
+                moves -= 1f;
             }
             else
             {
-                moves = 0;
+                moves = 0f;
             }
         }
     }
@@ -1608,7 +1608,7 @@ public class Player : Photon.MonoBehaviour
         {
             if (Wonder_Y2)
             {
-                moves -= 1;
+                moves -= 1f;
             }
             else
             {
@@ -1635,7 +1635,7 @@ public class Player : Photon.MonoBehaviour
             }
             else
             {
-                moves = 0;
+                moves = 1f;
             }
         }
     }
@@ -1657,7 +1657,7 @@ public class Player : Photon.MonoBehaviour
             }
             else
             {
-                moves = 0;
+                moves = 1f;
             }
         }
     }
@@ -1667,7 +1667,7 @@ public class Player : Photon.MonoBehaviour
     {
         if (mode == "free")
         {
-            //move doesn't change
+            //move doesn't change.
         }
         else if (mode == "normal")
         {
@@ -1716,7 +1716,7 @@ public class Player : Photon.MonoBehaviour
         {
             if (Wonder_Y2)
             {
-                moves -= 1;
+                moves -= 1f;
             }
             else
             {
